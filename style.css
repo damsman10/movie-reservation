@@ -1,0 +1,73 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url(./Empty-Cinema-with-Empty-seats.webp);
+}
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    margin-top: 5rem;
+    padding: 20px;
+    border: 1px solid;
+    background-color: rgb(245, 245, 220);
+    opacity: 90%;
+}
+
+.header {
+    height: 10rem;
+    border-radius: 10px;
+    border: 1px solid;
+
+}
+
+.header h1 {
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.details {
+    border: 1px solid;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 2rem 0 2rem 5rem;
+}
+
+.name, .age {
+    font-size: 2rem;
+    margin-right: 20px;
+}
+
+#age {
+    margin-left: 20px;
+}
+
+.ageLabel {
+    margin-top: 20px;
+}
+.input {
+    height: 2.6rem;
+}
+
+.buttonCont {
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.button {
+    padding: 12px 25px;
+    border: none;
+    background-color: black;
+    color: #fff;
+    font-size: 20px;
+    margin-top: 20px;
+    
+}
+
+.result p {
+    font-size: 1.5rem;
+}
